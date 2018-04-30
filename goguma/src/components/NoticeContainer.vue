@@ -1,7 +1,19 @@
 <template>
-  <div class="container">
-  <sopt-number></sopt-number>
+<div class="wrap">
+  <!-- 헤더 -->
+  <header>
   <page-title></page-title>
+  </header>
+
+  <div class="container">
+  <aside>
+  <sopt-number></sopt-number>
+  </aside>
+  
+  <section>
+    <!-- list-element 넣기 -->
+  </section>
+  </div>
   </div>
 </template>
 

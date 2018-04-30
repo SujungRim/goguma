@@ -1,6 +1,11 @@
 <template>
-<div class="container">
-  <page-title></page-title>
+<div class="wrap">
+  <!-- 헤더 -->
+  <header>
+  <page-title id="sopt_title"></page-title>
+  </header>
+  <!-- 본문 -->
+  <div class="container"></div>
   </div>
 </template>
 
@@ -15,5 +20,8 @@ export default {
 </script>
 
 <style>
-
+#sopt_title{
+  margin-top: 46vh;
+  margin-left: 54vw;
+}
 </style>

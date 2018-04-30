@@ -1,6 +1,11 @@
 <template>
-  <div class="container">
-    <page-title></page-title>
+  <div class="wrap">
+  <!-- 헤더 -->
+  <header>
+  <page-title id="sopt_title"></page-title>
+  </header>
+  <!-- 본문 -->
+  <div class="container"></div>
   </div>
 </template>
 

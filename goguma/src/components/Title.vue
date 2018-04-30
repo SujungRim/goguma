@@ -15,8 +15,10 @@ export default {
 
 <style>
 h1{
-    font-weight: 700;
-    margin-top: 192px;
-    margin-left: 10vw;
+    font-size: 8rem;
+    font-weight: 800;
+    margin-top: 17vh;
+    margin-left: 16vw;
+    color: #707070;
 }
 </style>
