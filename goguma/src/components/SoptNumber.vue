@@ -24,7 +24,6 @@ export default {
   margin-top: 8.7vh;
   margin-left: 16vw;
   font-size: 3rem;
-  color: #707070;
 }
 
 #now{

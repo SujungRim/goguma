@@ -6,12 +6,17 @@
   </header>
 
   <div class="container">
-  <aside>
+  <aside class="snumber">
   <sopt-number></sopt-number>
   </aside>
-  
-  <section>
-    <!-- list-element 넣기 -->
+
+  <section class="element_list">
+    <list-element></list-element>
+    <list-element></list-element>
+    <list-element></list-element>
+    <list-element></list-element>
+    <list-element></list-element>
+    <list-element></list-element>
   </section>
   </div>
   </div>
@@ -20,15 +25,28 @@
 <script>
 import Title from './Title'
 import SoptNumber from './SoptNumber'
+import ListElement from './ListElement'
 export default {
     name: 'StoryContainer',
     components: {
     "soptNumber": SoptNumber,
-    "pageTitle": Title
+    "pageTitle": Title,
+    "listElement": ListElement
     }
 }
 </script>
 
 <style>
+.container{
+  overflow: hidden;
+}
+.snumber{
+  float: left;
+}
 
+.element_list{
+  margin-top: 12vh;
+  margin-left: 19.5vw;
+  float: left;
+}
 </style>

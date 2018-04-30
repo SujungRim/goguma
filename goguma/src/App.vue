@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nav>
+      <!-- <nav-line></nav-line> -->
     <ul>
       <li class="first">
         <router-link to="/home" class="menu">SOPT</router-link>
@@ -27,20 +28,21 @@
 </template>
 
 <script>
+// import NavLine from './components/NavLine'
 export default {
-  name: 'App'
+  name: 'App',
+  // components: {
+  //   "navLine": NavLine
+  // }
 }
 </script>
 
 <style>
-
-*{
-  font-family: 'Noto Sans', sans-serif;
-}
-
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  color: #707070;
 }
 
 nav{
@@ -49,10 +51,10 @@ nav{
   width: 100vw;
   background-color: #ffffff;
   /* font-size: 10px; */
-  margin-top: .5vw;
 }
 
 ul{
+  margin-top: 1vh;
   font-size: 2rem;
   list-style-type: none;
 }
@@ -67,6 +69,7 @@ ul{
 ul li {
   display: inline-block;
   padding-right: 11vw;
+  
 }
 
 .sixth{
