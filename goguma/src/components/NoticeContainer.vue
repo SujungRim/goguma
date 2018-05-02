@@ -11,18 +11,14 @@
   </aside>
 
   <section class="element_list">
-    <list-element></list-element>
-    <list-element></list-element>
-    <list-element></list-element>
-    <list-element></list-element>
-    <list-element></list-element>
-    <list-element></list-element>
+    <list-element :propsdata="item" v-for="item in listData"></list-element>
   </section>
   </div>
   </div>
 </template>
 
 <script>
+import noticelist from '../noticelist'
 import Title from './Title'
 import SoptNumber from './SoptNumber'
 import ListElement from './ListElement'
@@ -32,6 +28,23 @@ export default {
     "soptNumber": SoptNumber,
     "pageTitle": Title,
     "listElement": ListElement
+    },
+    data () {
+      return {
+        // noticeListData: listData()
+      }
+    },
+    computed: {
+      listData: function() {
+        var Path = this.$route.path;
+        if (Path === '/notice')
+         return noticelist.notice;
+        else
+         return null;
+      }
+    },
+    created () {
+      console.log();
     }
 }
 </script>

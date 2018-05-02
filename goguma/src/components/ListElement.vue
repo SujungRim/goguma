@@ -1,13 +1,33 @@
 <template>
   <div class="article">
-      <div class="left">제목</div>
-      <div class="right">내용입니다다다ㅏ다아아라알아앙라</div>
+      <!-- <div class="loading" v-if="loading">
+          Loading...
+      </div>
+
+      <div class="error" v-if="error">
+          {{error}}
+      </div> -->
+
+      <div class="real_article">
+         <div class="left"><span style="white-space: pre;">{{propsdata.title}}</span></div>
+        <div class="right"><span style="white-space: pre;">{{propsdata.content}}</span></div>
+      </div>
   </div>
 </template>
 
 <script>
+import noticelist from '../noticelist'
 export default {
-    name: 'ListElement'
+    name: 'ListElement',
+    data () {
+        return {
+            
+        }
+    },
+    props: ['propsdata'],
+    methods: {
+
+    }
 }
 </script>
 
