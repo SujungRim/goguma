@@ -5,7 +5,7 @@
   <page-title id="home_title"></page-title>
   </header>
   <!-- 본문 -->
-  <div class="container"></div>
+  <div class="content_container"></div>
   </div>
 </template>
 

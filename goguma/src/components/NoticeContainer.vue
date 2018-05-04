@@ -5,7 +5,7 @@
   <page-title></page-title>
   </header>
 
-  <div class="container">
+  <div class="content_container">
   <aside class="snumber">
   <sopt-number></sopt-number>
   </aside>
@@ -31,7 +31,6 @@ export default {
     },
     data () {
       return {
-        // noticeListData: listData()
       }
     },
     computed: {
@@ -50,11 +49,12 @@ export default {
 </script>
 
 <style>
-.container{
+.content_container{
   overflow: hidden;
 }
 .snumber{
   float: left;
+  display: inline;
 }
 
 .element_list{

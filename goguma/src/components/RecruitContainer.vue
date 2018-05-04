@@ -1,6 +1,9 @@
 <template>
-  <div class="container">
+  <div class="wrap">
+  <!-- 헤더 -->
+  <header>
   <page-title></page-title>
+  </header>
   </div>
 </template>
 
