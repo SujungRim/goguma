@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav>
-    <b-progress class="mt-1" :max="max">
+    <b-progress class="mt-1" :max="max" style="margin-top: 0 !important; background-color: #ffffff !important; height: .5rem !important;">
       <b-progress-bar :value="counter" variant="secondary" height="10px"></b-progress-bar>
     </b-progress>
     <ul>

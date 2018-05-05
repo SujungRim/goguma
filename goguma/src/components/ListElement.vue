@@ -11,7 +11,7 @@
       </div>
   </div>
 </template>
-}
+
 <script>
 import noticelist from '../noticelist'
 import storylist from '../storylist'

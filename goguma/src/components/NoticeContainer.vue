@@ -59,7 +59,7 @@ export default {
 
 .element_list{
   margin-top: 12vh;
-  margin-left: 19.5vw;
+  margin-left: 19vw;
   float: left;
 }
 </style>
